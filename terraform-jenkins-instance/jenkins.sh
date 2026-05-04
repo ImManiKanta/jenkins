@@ -11,8 +11,7 @@ sudo xfs_growfs /var
 sudo xfs_growfs /home
 
 #jenkins install
-sudo curl -o /etc/yum.repos.d/jenkins.repo
-sudo https://pkg.jenkins.io/rpm-stable/jenkins.repo 
+sudo curl -o /etc/yum.repos.d/jenkins.repo  https://pkg.jenkins.io/rpm-stable/jenkins.repo 
 
 sudo yum install fontconfig java-21-openjdk -y
 sudo yum install jenkins -y
